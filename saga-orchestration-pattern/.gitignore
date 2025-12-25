@@ -1,0 +1,97 @@
+## Build Outputs
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+## Compiled Files
+*.dll
+*.pdb
+*.exe
+*.out
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Rider/JetBrains
+.idea/
+*.sln.iml
+*.sln.DotSettings.user
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+## Docker
+.env
+*.env.local
+.dockerignore
+docker-compose.override.yml
+
+## Test Results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+## Visual Studio cache/options
+.vs/
+.vscode/
+
+## ReSharper
+_ReSharper*/
+*.ReSharper
+
+## Temp files
+*.tmp
+*.temp
+*.log
+*.cache
+*.bak
+*.swp
+*~
+
+## OS files
+.DS_Store
+Thumbs.db
+.Trash-*
+ehthumbs.db
+Desktop.ini
+
+## Rider-specific build artifacts
+apphost
+*.Up2Date
+*.genruntimeconfig.cache
+*.GlobalUsings.g.cs
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.assets.cache
+*.csproj.*.cache
+rider.project.model.nuget.info
+rider.project.restore.info
+
+## Static web assets
+staticwebassets/
+*.staticwebassets.*.json
+
+## Keep these
+!.gitignore
+!.gitattributes

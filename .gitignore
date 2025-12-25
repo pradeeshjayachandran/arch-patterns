@@ -1,0 +1,138 @@
+## Build Outputs - compiled code and artifacts
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+## Compiled Files - regenerated on every build
+*.dll
+*.pdb
+*.exe
+*.out
+
+## NuGet - package manager files
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Rider/JetBrains IDE
+.idea/
+*.sln.iml
+*.sln.DotSettings.user
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+
+## Build results - Debug/Release folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Web Assets
+wwwroot/dist/
+wwwroot/lib/
+node_modules/
+
+## Docker
+.env
+*.env.local
+.dockerignore
+docker-compose.override.yml
+
+## Test Results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+## Visual Studio cache/options
+.vs/
+.vscode/
+
+## ReSharper
+_ReSharper*/
+*.ReSharper
+
+## Temp files
+*.tmp
+*.temp
+*.log
+*.cache
+*.bak
+*.swp
+*~
+
+## OS files
+.DS_Store
+Thumbs.db
+.Trash-*
+ehthumbs.db
+Desktop.ini
+
+## Rider-specific build artifacts
+apphost
+*.Up2Date
+*.genruntimeconfig.cache
+*.GlobalUsings.g.cs
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.assets.cache
+*.csproj.*.cache
+rider.project.model.nuget.info
+rider.project.restore.info
+
+## Static web assets - ASP.NET Core
+staticwebassets/
+staticwebassets.build.json
+staticwebassets.build.json.cache
+staticwebassets.build.endpoints.json
+*.staticwebassets.endpoints.json
+rjsmcshtml.dswa.cache.json
+rjsmrazor.dswa.cache.json
+rpswa.dswa.cache.json
+swae.build.ex.cache
+
+## MVC specific
+*.MvcApplicationPartsAssemblyInfo.cache
+*.MvcApplicationPartsAssemblyInfo.cs
+
+## NuGet package restore files
+project.assets.json
+project.nuget.cache
+project.packagespec.json
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+## Runtime folders
+runtimes/
+
+## Language resource files - not needed in repo
+cs/
+de/
+es/
+fr/
+it/
+ja/
+ko/
+pl/
+pt-BR/
+ru/
+tr/
+zh-Hans/
+zh-Hant/
