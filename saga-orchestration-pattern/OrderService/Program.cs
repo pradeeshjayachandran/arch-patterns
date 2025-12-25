@@ -1,6 +1,8 @@
 using Contracts.Events;
 using Marten;
 using MassTransit;
+using MassTransit.SagaStateMachine;
+using MassTransit.Visualizer;
 using Microsoft.AspNetCore.Mvc;
 using OrderService.Domain.Sagas;
 using OrderService.Presentation.Models;
@@ -54,6 +56,14 @@ app.MapPost("api/order/",
         
         await publishEndpoint.Publish(orderSubmittedEvent);
     });
+
+app.MapGet("/graph", () =>
+{
+    var orderStateMachine = new OrderStateMachine();
+    StateMachineGraphvizGenerator? generator = new(orderStateMachine.GetGraph());
+    var dotFile = generator.CreateDotFile();
+    return dotFile;
+});
 
 app.MapOpenApi();
 app.MapScalarApiReference();
